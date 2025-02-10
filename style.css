@@ -1,0 +1,664 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: poppins;
+    scroll-behavior: smooth;
+}
+
+/* Header section CSS */
+
+header#headSec {
+    background: rgb(24, 24, 24);
+    padding: 17px;
+}
+
+a.logo img {
+    width: 147px;
+}
+a.logo {
+    color: #7ed7c1;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 21px;
+}
+a.logo:hover{
+    color:#fff;
+}
+#headSec a.nav-link {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: poppins;
+    padding: 10px;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+}
+
+#headSec a.nav-link:hover {
+    color: rgb(126, 215, 193);
+    transition: all 0.3s ease 0s;
+}
+
+#headSec .btn-primary {
+    font-size: 14px;
+    background: rgb(126, 215, 193);
+    border: none;
+    padding: 12px 30px;
+    color: rgb(24, 24, 24);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#headSec .btn-primary:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    color: rgb(10, 10, 10);
+}
+
+/* Main Section CSS */
+
+section#mainSec {
+    padding: 80px 0px;
+    background: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+}
+
+.mainCon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section#mainSec img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.mainRight {
+    text-align: center;
+}
+
+.mainDesc {
+    font-size: 17px;
+    padding-right: 80px;
+    margin-top: 25px;
+}
+
+.devMim {
+    color: rgb(126, 215, 193);
+}
+
+section#mainSec h1 {
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.nameP {
+    color: rgb(126, 215, 193);
+    font-size: 20px;
+}
+
+section#mainSec h3 {
+    font-size: 28px;
+    margin-top: -10px;
+}
+
+section#mainSec .dwnldCv {
+    border: 2px solid rgb(126, 215, 193);
+    color: rgb(126, 215, 193);
+    background: none;
+    padding: 15px 35px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+section#mainSec .dwnldCv:hover {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 24, 24);
+    transition: all 0.3s ease 0s;
+}
+
+/* About Section CSS  */
+
+section#aboutSec {
+    padding: 80px 0px;
+}
+
+.aboutSec {
+    display: flex;
+    align-items: center;
+}
+
+.aboutSec img {
+    width: 326px;
+    border-radius: 12px;
+}
+
+.aboutSec h1 {
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.abotme {
+    color: rgb(126, 215, 193);
+}
+
+.aboutSec p {
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.aboutLeft {
+    text-align: center;
+}
+
+.aboutSec .btn-primary {
+    border: 2px solid rgb(126, 215, 193);
+    color: rgb(255, 255, 255);
+    background: rgb(126, 215, 193);
+    padding: 15px 35px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.aboutSec .btn-primary:hover {
+    background-color: rgb(24, 24, 24);
+    border: 2px solid rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+}
+
+/* Education Section  CSS*/
+section#eduSec {
+    padding: 80px 0px;
+    background: #181818;
+    color: #fff;
+}
+
+section#eduSec h1 {
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.eduCon {
+    display: flex;
+}
+.eduCon2{
+    display: flex;
+    margin-top: 50px;
+}
+.eduLeft {
+    padding: 40px;
+}
+
+.eduBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eduIcon i {
+    font-size: 40px;
+    color: #181818;
+    margin-right: 60px;
+    background-color: #7ed7c1;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.eduRight {
+    padding: 40px;
+}
+
+.eduText p {
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.eduText h6{
+    
+    color: #7ed7c1;
+}
+section#serviceSec {
+    padding: 85px 0px;
+    background: rgb(24, 24, 24);
+}
+
+/* Services Section CSS */
+
+.serTitle {
+    text-align: center;
+}
+
+.serTitle h1 {
+    font-size: 40px;
+    color: rgb(126, 215, 193);
+    margin: 30px 0px 45px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.serCardbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.serCard {
+    padding: 50px;
+    background: rgb(255, 255, 255);
+    color: rgb(24, 24, 24);
+    margin-right: 25px;
+    transition: all 0.18s linear 0s;
+    border-radius: 10px;
+}
+
+.serCard:hover {
+    transform: scale(1.02);
+    background-color: rgb(126, 215, 193);
+    color: rgb(24, 24, 24);
+}
+
+.serCard:hover i {
+    color: rgb(255, 255, 255);
+}
+
+.serCard:hover h3 {
+    color: rgb(255, 255, 255);
+}
+
+.serCard:hover p {
+    color: rgb(255, 255, 255);
+}
+
+.serCard i {
+    font-size: 65px;
+    margin: 25px 0px 15px;
+    color: rgb(126, 215, 193);
+}
+
+.serCard h3 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 0px 20px;
+    color: rgb(24, 24, 24);
+}
+
+.serCard p {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(129 129 129 / 88%);
+}
+
+.serCardbox2 {
+    margin-top: 25px;
+}
+
+
+/* Skill section css */
+
+section#skillSec {
+    background-color: rgb(255, 255, 255);
+    padding: 85px 0px;
+    color: rgb(24, 24, 24);
+}
+
+.skillTitle {
+    text-align: center;
+}
+
+.skillTitle h1 {
+    font-size: 40px;
+    color: rgb(24, 24, 24);
+    margin: 30px 0px 15px;
+    text-transform: uppercase;
+}
+
+.skillTitle p {
+    margin: 15px 0px 45px;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+section#skillSec img {
+    width: 440px;
+}
+
+.skillCon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skillLeft {
+    width: 50%;
+}
+
+.skillRight {
+    width: 50%;
+    text-align: center;
+}
+
+.skillLeft h4 {
+    margin: 10px 0px;
+}
+
+.skillLeft .progress-bar {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(126, 215, 193) !important;
+}
+
+.skillLeft .progress {
+    height: 25px !important;
+}
+
+
+
+
+.interests {
+    background-color: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+/* Project Section  */
+section#ProSec h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #222;
+    margin: 30px 0px 55px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.proCard img {
+    width: 380px;
+    border-radius: 12px;
+    margin: 15px 0px;
+}
+
+.probox {
+    margin-top: 35px;
+}
+.probox2 {
+    margin-top: 55px !important;
+}
+
+
+section#ProSec {
+    padding: 80px 0px;
+}
+
+.proTitle {
+    display: flex;
+    justify-content: space-between;
+    max-width: 380px;
+    margin: 15px 0px;
+}
+
+.proTitle h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #62b4a0;
+}
+
+.proTitle i {
+    font-size: 21px;
+    color: #6dcab4;
+}
+
+.proCard p {
+    font-size: 17px;
+    font-weight: 300;
+    color: #818181;
+}
+
+.proCard a {
+    border: 2px solid rgb(126, 215, 193);
+    color: rgb(255, 255, 255);
+    background: rgb(126, 215, 193);
+    padding: 15px 35px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.proCard a:hover {
+    border: 2px solid #222;
+    background-color:#fff;
+    color: rgb(24, 24, 24);
+    transition: all 0.3s ease 0s;
+}
+
+/* Contact Section CSS  */
+
+section#contactSec {
+    color: rgb(255, 255, 255);
+    background: rgb(24, 24, 24);
+    padding: 70px 0px;
+}
+
+.contactCon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conleft h1 {
+    font-size: 65px;
+    font-weight: 100;
+    color: #7ed7c1;
+}
+
+.conleft i {
+    font-size: 20px;
+    padding: 20px;
+    background: #7ed7c1;
+    border-radius: 5px;
+    margin-right: 6px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+.conleft i:hover{
+    background-color: #fff;
+    color: #181818;
+
+}
+
+.conleft p {
+    font-size: 19px;
+    margin: 20px 0px 30px 0px;
+    font-weight: 500;
+}
+
+.conSocial a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.conSocial a:hover {
+    color: rgb(255, 138, 0);
+    transition: all 0.3s ease 0s;
+}
+
+.conSocial {
+    margin: 16px 0px;
+}
+
+.conForm input {
+    width: 100%;
+    background: none;
+    border: 2px solid rgb(126, 215, 193);
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.nameMail {
+    display: flex;
+}
+
+.nameMail input {
+    width: 49%;
+}
+
+#formName {
+    margin-right: 3%;
+}
+
+.conForm textarea {
+    width: 100%;
+    border-radius: 15px;
+    background: none;
+    border: 2px solid rgb(126, 215, 193);
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.conForm .btn-primary {
+    font-size: 19px;
+    padding: 15px 35px;
+    width: 100%;
+    border-radius: 15px;
+    background: rgb(126, 215, 193);
+    border: none;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.conForm .btn-primary:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 24, 24);
+    transition: all 0.3s ease 0s;
+}
+
+/* Footer Section CSS */
+
+footer#footerSec {
+    background: rgb(24, 24, 24);
+    padding: 30px 0px;
+    color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(241, 235, 231);
+}
+
+.footerCon {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerLeft {
+    width: 33.33%;
+}
+
+.footerMid {
+    width: 33.33%;
+    font-size: 17px;
+    text-align: center;
+}
+
+.footerRight {
+    text-align: end;
+    width: 33%;
+}
+
+.footerRight a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    padding: 8px;
+}
+
+.footerRight a:hover {
+    color: rgb(126, 215, 193);
+}
+
+/* HireMe Page  Css */
+
+section#hireMe {
+    padding: 80px 0px;
+    margin: auto;
+    background: #181818;
+}
+.hireMeCon{
+    width: 1120px;
+    margin: auto;
+}
+.hireMeCon i {font-size: 55px;color: #7ed7c1;display: flex;align-items: center;justify-content: center;margin-bottom: 20px;}
+
+.hireMeCon h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #7ed7c1;
+}
+
+.hireMeCon h3 {
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.hireMeCon p {
+    color: #ededed;
+    text-transform: capitalize;
+    font-size: 19px;
+}
+
+/* Thank You Page CSS  */
+
+#ThanksSec{
+    padding: 250px 0px;
+    margin: auto;
+    background: #181818;
+}
+#ThanksSec .btn-primary {
+    font-size: 19px;
+    padding: 15px 35px;
+    width: 100%;
+    border-radius: 15px;
+    background: rgb(126, 215, 193);
+    border: none;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+#ThanksSec .btn-primary:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 24, 24);
+    transition: all 0.3s ease 0s;
+}
