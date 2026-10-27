@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mim Humira || Professional Web developer</title>
+    <title>Mim Humira </title>
+    <!-- Google Font: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Style CSS Link  -->
     <link rel="stylesheet" href="style.css">
     <!-- JavaScript Link  -->
@@ -21,6 +25,7 @@
             <a href="index.html" class="logo">
                 <img src="logo_mim.png" alt="" srcset="">
             </a>
+            <button type="button" class="navToggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -39,253 +44,320 @@
 <section id="mainSec">
     <div class="container mainCon">
         <div class="col-md-6 mainRight">
-            <img src=" MIM1.jpg " alt="My_Img">
+            <img src="ppppppppp.jpeg " alt="My_Img">
         </div>
         <div class="col-md-6 mainLeft">
             <p class="nameP">Mim Humira</p>
-            <h1>I am a CSE <br/><span class="devMim">Student</span> </h1>
+            <h1>A CSE <br/><span class="devMim">undergraduate</span> </h1>
             <p class="mainDesc">
-                Hey there! I'm Mim, a thriving web developer on a mission to create stunning online experiences. 
-                Dive into my world of coding where ideas come to life and innovation knows no bounds.
+            Exploring Artificial Intelligence and emerging technologies to understand how innovation shapes our world.
             </p>
-            <a href="#ProSec" target="_blank"><button class="btn btn-primary dwnldCv">See Projects</button></a>
+            <a href="#ProSec"><button class="btn btn-primary dwnldCv">See Projects</button></a>
             
         </div>
     </div>
 </section>
-<!-- About Me section  -->
-<section id="aboutSec">
-    <div class="container aboutSec">
-        <div class="col-md-6 aboutRight">
-            <h1>About <span class="abotme">Me</span></h1>
-            <p>Hi, I'm Mim, a CSE student at Premier University and a dedicated web developer. 
-                I specialize in turning creative ideas into functional and visually appealing websites. 
-                Constantly learning and exploring, I bring a passion for innovation to every project. 
-                Let's code something amazing together!</p>           
-        </div>
-        <div class="col-md-6 aboutLeft">
-            <img src="Mim_about.jpg" alt="My_Img">
-        </div>
-    </div>
-</section>
-<!-- Education Section  -->
-<section id="eduSec">
-    <h1>Education</h1>
-    <div class="container eduCon">
-        <div class="eduLeft">
-            <div class="eduBox">
-                <div class="eduIcon"><i class="fa fa-graduation-cap"></i></div>
-                <div class="eduText">
-                    <h6>2016</h6>
-                    <h3>JSC</h3>
-                    <p>Chandgoan N.M.C. Model High School</p>
-                </div>
+<!-- About Me & Academic Journey (side by side) -->
+<section id="aboutSec" class="esSec esDeep">
+    <div class="container esWrap">
+
+        <!-- About Me (left) -->
+        <div class="esCol aboutCol">
+            <p class="esLabel">About Me</p>
+            <h2 class="esHeading">Turning Ideas Into <span class="abotme">Technologies</span></h2>
+            <p class="aboutText">Hey there! I'm Mim, an undergraduate student in Computer Science and Engineering. I've explored web and app development using various technologies and programming languages. Currently, I'm diving deeper into Artificial Intelligence, Data Science, and Research, driven by my curiosity about emerging technologies and their potential to solve real-world problems.
+
+Beyond technology, I enjoy reading books, editing videos, and capturing fleeting moments that tell a story..</p>
+            <div class="esChips">
+                <span><i class="fa fa-check-circle"></i> CSE Student</span>
+                <span><i class="fa fa-check-circle"></i> Premier University</span>
+                <span><i class="fa fa-check-circle"></i> Web Developer</span>
             </div>
+            <a href="#ProSec" class="esBtn">See Projects <i class="fa fa-arrow-right"></i></a>
         </div>
-        <div class="eduRight">
-            <div class="eduBox">
-                <div class="eduIcon"><i class="fa fa-graduation-cap"></i></div>
-                <div class="eduText">
-                    <h6>2019</h6>
-                    <h3>SSC</h3>
-                    <p>Chandgoan N.M.C. Model High School</p>
+
+        <!-- Academic Journey (right) -->
+        <div id="eduSec" class="esCol">
+            <p class="esLabel">Education</p>
+            <h2 class="esHeading">My Academic Journey</h2>
+            <div class="infoCard">
+                <div class="infoRow">
+                    <i class="fa fa-graduation-cap"></i>
+                    <div>
+                        <h4>JSC</h4>
+                        <p>Chandgoan N.M.C. Model High School</p>
+                    </div>
+                    <span class="infoYear">2016</span>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="container eduCon2">
-        <div class="eduLeft">
-            <div class="eduBox">
-                <div class="eduIcon"><i class="fa fa-graduation-cap"></i></div>
-                <div class="eduText">
-                    <h6>2021</h6>
-                    <h3>HSC</h3>
-                    <p>Chattogram Biggan College</p>
+                <div class="infoRow">
+                    <i class="fa fa-graduation-cap"></i>
+                    <div>
+                        <h4>SSC</h4>
+                        <p>Chandgoan N.M.C. Model High School</p>
+                    </div>
+                    <span class="infoYear">2019</span>
                 </div>
-            </div>
-        </div>
-        <div class="eduRight">
-            <div class="eduBox">
-                <div class="eduIcon"><i class="fa fa-graduation-cap"></i></div>
-                <div class="eduText">
-                    <h6>Pursing</h6>
-                    <h3>BSc in CSE</h3>
-                    <p>Premier University</p>
+                <div class="infoRow">
+                    <i class="fa fa-graduation-cap"></i>
+                    <div>
+                        <h4>HSC</h4>
+                        <p>Chattogram Biggan College</p>
+                    </div>
+                    <span class="infoYear">2021</span>
+                </div>
+                <div class="infoRow">
+                    <i class="fa fa-graduation-cap"></i>
+                    <div>
+                        <h4>BSc in CSE</h4>
+                        <p>Premier University</p>
+                    </div>
+                    <span class="infoYear">Pursuing</span>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- Skill Section  -->
-<section id="skillSec">
-    <div class="skillTitle">
-        <h1>My Skills</h1>
-        <p>I like to craft beautiful & scaleable web products</p>
-    </div>
-    <div class="container skillCon">  
-        <div class="skillRight">
-            <img src="mim_brain.png" alt="Mim_skills">
-        </div>      
-        <div class="skillLeft">
-            <div class="html">
-                <h4>HTML</h4>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
-                </div>
-            </div>
-            <div class="CSS">
-                <h4>CSS</h4>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
-                </div>
-            </div>
-            <div class="JavaScript">
-                <h4>JavaScript</h4>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 87%;" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">87%</div>
-                </div>
-            </div>
-            <div class="Python">
-                <h4>Python</h4>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                </div>
-            </div>
-            <div class="Java">
-                <h4>Java</h4>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-                </div>
-            </div>
-        </div>
+
     </div>
 </section>
 
-    
+<!-- Technical Expertise & Hobbies (side by side) -->
+<section id="eduSkillSec" class="esSec esDark">
+    <div class="container esWrap">
 
-
-
-
-
-
-<!-- Services Section  -->
-<section id="serviceSec">
-    <div class="container serviceCon">
-        <div class="serTitle"><h1>My Hobbies</h1></div>
-        <div class="serCardbox">
-            <div class="serCard">
-                <i class="fa fa-eye"></i>
-                <h3>Graphics Design</h3>
-                <p>Craft visually striking designs that communicate ideas clearly and 
-                    enhance branding through engaging, innovative graphic elements.</p>
-            </div>
-            
-            <div class="serCard">
-                <i class="fa fa-cubes"></i>
-                <h3>Video Editing</h3>
-                <p class="vidpara">Create eye-catchy videos and editings that perform flawlessly on all devices, 
-                    ensuring users enjoy a smooth, seamless browsing experience.</p>
-            </div>
+       <!-- Technical Expertise (left) -->
+<div id="skillSec" class="esCol">
+    <p class="esLabel">My Skills</p>
+    <h2 class="esHeading">Technical Expertise</h2>
+    <div class="esGrid skillGrid">
+        <div class="esCard">
+            <i class="fa fa-html5"></i>
+            <h4>HTML</h4>
+            <span class="pct">90%</span>
+            <div class="bar"><div style="width: 90%;"></div></div>
         </div>
-        <div class="serCardbox serCardbox2 ">
-            <div class="serCard">
-                <i class="fa fa-desktop"></i>
-                <h3>Web Development</h3>
-                <p>Build highly functional websites with robust back-end systems and user-focused 
-                    interfaces to achieve maximum performance.</p>
-            </div>
-
+        <div class="esCard">
+            <i class="fa fa-css3"></i>
+            <h4>CSS</h4>
+            <span class="pct">87%</span>
+            <div class="bar"><div style="width: 87%;"></div></div>
+        </div>
+        <div class="esCard">
+    <i class="fa fa-terminal"></i>
+    <h4>Python</h4>
+    <span class="pct">85%</span>
+    <div class="bar"><div style="width: 85%;"></div></div>
+</div> 
+         
         
-                    <div class="serCardbox">
-                        <div class="serCard">
-                            <i class="fa fa-wordpress"></i>
-                            <h3>Responsive Website</h3>
-                            <p>Design fully responsive websites that perform flawlessly on all devices, 
-                                ensuring users enjoy a smooth, seamless browsing experience</p>
-                        </div>
-
-            </div> 
-            <div class="serCard">
-                <i class="fa fa-comments"></i>
-                <h3>Communication</h3>
-                <p>Improve customer outreach with effective communication strategies, delivering 
-                    targeted messages that foster meaningful connections.</p>
-            </div>
-        </div>      
+        <div class="esCard">
+            <i class="fa fa-code"></i>
+            <h4>C++</h4>
+            <span class="pct">80%</span>
+            <div class="bar"><div style="width: 80%;"></div></div>
+        </div>
+        <div class="esCard">
+            <i class="fa fa-database"></i>
+            <h4>SQL & PostgreSQL</h4>
+            <span class="pct">85%</span>
+            <div class="bar"><div style="width: 85%;"></div></div>
+        </div>
+        <div class="esCard">
+            <i class="fa fa-coffee"></i>
+            <h4>Java</h4>
+            <span class="pct">75%</span>
+            <div class="bar"><div style="width: 75%;"></div></div>
+        </div>
     </div>
-</section>
+</div>
+
+        <!-- Hobbies (right) -->
+<div id="serviceSec" class="esCol">
+    <p class="esLabel">Hobbies</p>
+    <h2 class="esHeading">What I Enjoy Doing</h2>
+    <div class="esGrid hobbyGrid">
+        <div class="esCard hobbyCard">
+            <i class="fa fa-book"></i>
+            <div>
+                <h4>Reading Books</h4>
+                <p>I enjoy exploring new ideas and perspectives through books.</p>
+            </div>
+        </div>
+        <div class="esCard hobbyCard">
+            <i class="fa fa-video-camera"></i>
+            <div>
+                <h4>Video Editing</h4>
+                <p>I love turning creative ideas into engaging visual stories.</p>
+            </div>
+        </div>
+        <div class="esCard hobbyCard">
+            <i class="fa fa-camera"></i>
+            <div>
+                <h4>Photography — Capturing Fleeting Moments</h4>
+                <p>I love capturing little moments that make life beautiful.</p>
+            </div>
+        </div>
+        <div class="esCard hobbyCard">
+            <i class="fa fa-pencil"></i>
+            <div>
+                <h4>Journaling</h4>
+                <p>I enjoy putting my thoughts, ideas, and everyday moments into words.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</section> 
 
 <!-- Project Section  -->
-<section id="ProSec">
+<section id="ProSec" class="esSec esDeep">
     <div class="container">
-        <div class="probox row">
-            <h2>My Projects</h2>
-            <div class="proCard col-md-4">
-                <img src="Mim_Pro (3).png" alt="Projects">
-                <div class="proTitle">
-                    <h5>Ashura’s Catering</h5>
-                    <i class="fa fa-heart"></i>
-                </div>
-                <p>Ashura’s Catering began with a love for baking and a desire to share the joy of homemade cakes. </p>
-                <a href="https://ashurascatering.gadgetexa.com/" target="_blank" class="btn btn-primary">View Project</a>
+        <div class="proHead">
+            <div>
+                <p class="esLabel">Featured Projects</p>
+                <h2 class="esHeading">My Projects</h2>
             </div>
-            <div class="proCard col-md-4">
-                <img src="Mim_Pro (1).png" alt="Projects">
-                <div class="proTitle">
-                    <h5>App Website</h5>
-                    <i class="fa fa-heart"></i>
-                </div>
-                <p>Mobile App XYZ was born from a passion for mobile technology and a commitment to creating intuitive applications.</p>
-                <a href="#" class="btn btn-primary">View Project</a>
-            </div>
-            <div class="proCard col-md-4">
-                <img src="Mim_Pro (2).png" alt="Projects">
-                <div class="proTitle">
-                    <h5>Book Website</h5>
-                    <i class="fa fa-heart"></i>
-                </div>
-                <p>Publisher ABC was founded on a love of literature and a dedication to bringing captivating stories to readers of all ages.</p>
-                <a href="#" class="btn btn-primary">View Project</a>
-            </div>
+            <p class="proHint"><i class="fa fa-search-plus"></i> Click any screenshot to enlarge</p>
         </div>
 
-        
-        
+        <div class="proGrid">
+
+            <div class="proCard" data-full="Mim_Pro (3).png" data-title="Ashura’s Catering">
+                <button type="button" class="proThumb" aria-label="Preview Ashura’s Catering">
+                    <img src="Mim_Pro (3).png" alt="Ashura’s Catering screenshot" loading="lazy">
+                    <span class="proZoom"><i class="fa fa-search-plus"></i></span>
+                </button>
+                <div class="proBody">
+                    <h5>Ashura’s Catering</h5>
+                    <p class="proTag">Cake &amp; Catering Website</p>
+                    <div class="proBtns">
+                        <button type="button" class="proPreviewBtn"><i class="fa fa-search-plus"></i> Preview</button>
+                        <a href="https://ashurascatering.gadgetexa.com/" target="_blank" rel="noopener" class="proLive">Live Site <i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proCard" data-full="Mim_Pro (1).png" data-title="App Website">
+                <button type="button" class="proThumb" aria-label="Preview App Website">
+                    <img src="Mim_Pro (1).png" alt="App Website screenshot" loading="lazy">
+                    <span class="proZoom"><i class="fa fa-search-plus"></i></span>
+                </button>
+                <div class="proBody">
+                    <h5>App Website</h5>
+                    <p class="proTag">Mobile App Landing Page</p>
+                    <div class="proBtns">
+                        <button type="button" class="proPreviewBtn"><i class="fa fa-search-plus"></i> Preview</button>
+                        <!-- To add a live link, paste this here: <a href="YOUR-LINK" target="_blank" rel="noopener" class="proLive">Live Site <i class="fa fa-external-link"></i></a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="proCard" data-full="Mim_Pro (2).png" data-title="Book Website">
+                <button type="button" class="proThumb" aria-label="Preview Book Website">
+                    <img src="Mim_Pro (2).png" alt="Book Website screenshot" loading="lazy">
+                    <span class="proZoom"><i class="fa fa-search-plus"></i></span>
+                </button>
+                <div class="proBody">
+                    <h5>Book Website</h5>
+                    <p class="proTag">Publisher Landing Page</p>
+                    <div class="proBtns">
+                        <button type="button" class="proPreviewBtn"><i class="fa fa-search-plus"></i> Preview</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proCard" data-full="Mim_Pro (4).png" data-title="Organic Products Store">
+                <button type="button" class="proThumb" aria-label="Preview Organic Products Store">
+                    <img src="Mim_Pro (4).png" alt="Organic Products Store screenshot" loading="lazy">
+                    <span class="proZoom"><i class="fa fa-search-plus"></i></span>
+                </button>
+                <div class="proBody">
+                    <h5>Organic Products Store</h5>
+                    <p class="proTag">Skincare Product Page</p>
+                    <div class="proBtns">
+                        <button type="button" class="proPreviewBtn"><i class="fa fa-search-plus"></i> Preview</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proCard" data-full="Mim_Pro (5).png" data-title="Marketing Agency">
+                <button type="button" class="proThumb" aria-label="Preview Marketing Agency">
+                    <img src="Mim_Pro (5).png" alt="Marketing Agency screenshot" loading="lazy">
+                    <span class="proZoom"><i class="fa fa-search-plus"></i></span>
+                </button>
+                <div class="proBody">
+                    <h5>Marketing Agency</h5>
+                    <p class="proTag">Business Landing Page</p>
+                    <div class="proBtns">
+                        <button type="button" class="proPreviewBtn"><i class="fa fa-search-plus"></i> Preview</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proCard" data-full="Mim_Pro (6).png" data-title="Task Master App">
+                <button type="button" class="proThumb" aria-label="Preview Task Master App">
+                    <img src="Mim_Pro (6).png" alt="Task Master App screenshot" loading="lazy">
+                    <span class="proZoom"><i class="fa fa-search-plus"></i></span>
+                </button>
+                <div class="proBody">
+                    <h5>Task Master App</h5>
+                    <p class="proTag">Productivity App Page</p>
+                    <div class="proBtns">
+                        <button type="button" class="proPreviewBtn"><i class="fa fa-search-plus"></i> Preview</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </section>
 
+<!-- Screenshot Lightbox (opens when a project screenshot is clicked) -->
+<div id="lightbox" class="lb" aria-hidden="true">
+    <button type="button" class="lbClose" aria-label="Close">&times;</button>
+    <button type="button" class="lbNav lbPrev" aria-label="Previous screenshot">&#10094;</button>
+    <figure class="lbFig">
+        <img id="lbImg" src="" alt="">
+        <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button type="button" class="lbNav lbNext" aria-label="Next screenshot">&#10095;</button>
+</div>
 
-<!-- Contact Me  -->
+
+
+<!-- Contact Me -->
 <section id="contactSec">
-    <div class="container contactCon">
-        <div class="col-md-6 conleft">
-            <h1>Get in Touch</h1>
-            <p>Feel free to contact me whenever you need!</p>
-            <a href="https://www.facebook.com/profile.php?id=100086910221545" target="_blank"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com/mim_humira/" target="_blank"><i class="fa fa-instagram"></i></a>
-            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-            <a href="#" target="_blank"><i class="fa fa-github"></i></a>
-            
+    <div class="container esWrap contactCon">
+        <div class="esCol conleft">
+            <p class="esLabel">Contact</p>
+            <h2 class="esHeading">Get in Touch</h2>
+            <p class="conText">Feel free to contact me whenever you need!</p>
+            <div class="conSocial">
+                <a href="https://www.linkedin.com/in/mim-humira-215b3a349/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/Mim0410" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa fa-github"></i></a>
+            </div>
         </div>
-        <div class="col-md-6 conRight">
-            <div class="conForm">
+        <div class="esCol conRight">
+            <form class="conForm" id="contactForm">
                 <div class="nameMail">
-                    <input type="text" placeholder="Name" id="formName">
-                    <input type="email" name="" id="formMail" placeholder="Email">
+                    <input type="text" name="name" id="formName" placeholder="Name" required>
+                    <input type="email" name="email" id="formMail" placeholder="Email" required>
                 </div>
                 <div class="formSub">
-                    <input type="text" placeholder="Subject"class="formSub">
+                    <input type="text" name="title" placeholder="Subject" required>
                 </div>
                 <div class="formText">
-                    <textarea cols="30" rows="10" placeholder="Write your message here: "></textarea>
+                    <textarea name="message" cols="30" rows="4" placeholder="Write your message here:" required></textarea>
                 </div>
                 <div class="formBtn">
-                    <a href="thankyou.html" target="_blank"><button class="btn btn-primary">Let's Talk</button></a>
+                    <button type="submit" class="btn btn-primary" id="submitBtn">Let’s Talk</button>
                 </div>
-            </div>
+                <p id="formStatus" role="status" aria-live="polite"></p>
+            </form>
         </div>
     </div>
 </section>
+
+
 <!-- Footer section  -->
 <footer id="footerSec">
     <div class="container footerCon">
@@ -299,9 +371,120 @@
         </div>
         <div class="footerRight">
             <a href="#aboutSec" class="footerLink">About Me</a>
+    
             <a href="#" target="_blank" class="footerLink">Privacy Policy</a>
         </div>
     </div>
 </footer>    
+<!-- Mobile menu script -->
+<script>
+(function () {
+    var btn = document.getElementById('navToggle');
+    var menu = document.getElementById('navbarNav');
+    if (!btn || !menu) return;
+    btn.addEventListener('click', function () {
+        var open = menu.classList.toggle('show');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    menu.addEventListener('click', function (e) {
+        if (e.target.closest('a')) {
+            menu.classList.remove('show');
+            btn.setAttribute('aria-expanded', 'false');
+        }
+    });
+})();
+</script>
+<!-- Lightbox script -->
+<script>
+(function () {
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.proCard'));
+    var lb = document.getElementById('lightbox');
+    var img = document.getElementById('lbImg');
+    var cap = document.getElementById('lbCap');
+    var current = 0;
+
+    function show(i) {
+        current = (i + cards.length) % cards.length;
+        var card = cards[current];
+        img.src = card.getAttribute('data-full');
+        img.alt = card.getAttribute('data-title');
+        cap.textContent = card.getAttribute('data-title') + '  (' + (current + 1) + ' / ' + cards.length + ')';
+    }
+    function openBox(i) {
+        show(i);
+        lb.classList.add('open');
+        lb.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeBox() {
+        lb.classList.remove('open');
+        lb.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+    }
+
+    cards.forEach(function (card, i) {
+        var targets = card.querySelectorAll('.proThumb, .proPreviewBtn');
+        Array.prototype.forEach.call(targets, function (el) {
+            el.addEventListener('click', function () { openBox(i); });
+        });
+    });
+
+    lb.querySelector('.lbClose').addEventListener('click', closeBox);
+    lb.querySelector('.lbPrev').addEventListener('click', function () { show(current - 1); });
+    lb.querySelector('.lbNext').addEventListener('click', function () { show(current + 1); });
+    lb.addEventListener('click', function (e) { if (e.target === lb) closeBox(); });
+
+    document.addEventListener('keydown', function (e) {
+        if (!lb.classList.contains('open')) return;
+        if (e.key === 'Escape') closeBox();
+        if (e.key === 'ArrowLeft') show(current - 1);
+        if (e.key === 'ArrowRight') show(current + 1);
+    });
+})();
+</script>
+
+
+<!-- EmailJS Library -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+    emailjs.init({
+        publicKey: "n-g-o5VDH8fGeZT5F"
+    });
+
+    const contactForm = document.getElementById("contactForm");
+    const formStatus = document.getElementById("formStatus");
+    const submitBtn = document.getElementById("submitBtn");
+
+    contactForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Sending...";
+        formStatus.textContent = "";
+
+        emailjs.sendForm(
+            "service_mim.humira",
+            "template_wjdlgom",
+            contactForm
+        )
+        .then(function () {
+            formStatus.textContent =
+                "Thank you! Your message has been sent successfully.";
+            contactForm.reset();
+        })
+        .catch(function (error) {
+            console.error("Email sending failed:", error);
+            formStatus.textContent =
+                "Sorry, your message could not be sent. Please try again.";
+        })
+        .finally(function () {
+            submitBtn.disabled = false;
+            submitBtn.textContent = "Let’s Talk";
+        });
+    });
+</script>
+
+
 </body>
 </html>
